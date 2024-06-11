@@ -1,0 +1,53 @@
+h1 {
+  text-align: center;
+  font-family: "Courier New", Courier, monospace;
+  animation-name: hellotext;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes hellotext {
+  0%,
+  100% {
+    color: rgb(0, 0, 255);
+  }
+  5%,
+  95% {
+    color: rgb(0, 10, 235);
+  }
+  10%,
+  90% {
+    color: rgb(0, 30, 200);
+  }
+  15%,
+  85% {
+    color: rgb(0, 60, 180);
+  }
+  20%,
+  80% {
+    color: rgb(0, 100, 160);
+  }
+  25%,
+  75% {
+    color: rgb(0, 150, 150);
+  }
+  30%,
+  70% {
+    color: rgb(0, 160, 50);
+  }
+  35%,
+  65% {
+    color: rgb(30, 180, 0);
+  }
+  40%,
+  60% {
+    color: rgb(80, 200, 10);
+  }
+  45%,
+  55% {
+    color: rgb(150, 250, 20);
+  }
+  50% {
+    color: rgb(200, 255, 0);
+  }
+}
