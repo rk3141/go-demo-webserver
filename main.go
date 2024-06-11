@@ -65,6 +65,7 @@ func main() {
 
 	contentType["html"] = "text/html"
 	contentType["css"] = "text/css"
+	contentType["webp"] = "image/webp"
 
 	http.HandleFunc("/", handler)
 	http.HandleFunc("/hello/", helloHandler)

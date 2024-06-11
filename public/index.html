@@ -4,8 +4,27 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Go web server</title>
+    <link rel="stylesheet" href="style.css" />
+    <style>
+      img#world {
+        animation: rotate;
+        animation-duration: 3s;
+        animation-iteration-count: infinite;
+        animation-timing-function: cubic-bezier(0.445, 0.05, 0.55, 0.95);
+      }
+      @keyframes rotate {
+        from {
+          transform: rotate(0deg);
+        }
+
+        to {
+          transform: rotate(359.9deg);
+        }
+      }
+    </style>
   </head>
   <body>
     <h1>Demo go webserver</h1>
+    <img id="world" src="/world.webp" alt="World image" />
   </body>
 </html>
